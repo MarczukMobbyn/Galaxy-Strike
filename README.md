@@ -25,3 +25,6 @@ A 3D rail-based space shooter developed in Unity. The project focuses on cinemat
 2. Open the project in Unity (Version 6000.0.28f1).
 3. Navigate to `Assets/Scenes` and open the 'MainLevel'.
 4. Press Play to start the mission.
+
+## Author
+* **Szymon Marczuk** - [GitHub Profile](https://github.com/MarczukMobbyn)
