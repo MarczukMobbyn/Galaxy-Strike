@@ -4,6 +4,7 @@ A 3D rail-based space shooter developed in Unity. The project focuses on cinemat
 
 ## Gameplay Preview
 ![Gameplay Preview](Media/gameplay.gif)
+![Screenshot](Media/screenshot1.png)
 
 ## Key Technical Features
 
