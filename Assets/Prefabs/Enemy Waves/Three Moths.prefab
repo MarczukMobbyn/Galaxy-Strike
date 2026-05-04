@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3492741610645373447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3678492566794566129}
+  - component: {fileID: 8437198441768561048}
+  m_Layer: 0
+  m_Name: Three Moths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3678492566794566129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492741610645373447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -16.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7691860627788390578}
+  - {fileID: 898834572386068891}
+  - {fileID: 4962257249169291345}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8437198441768561048
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492741610645373447}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4adb3674bd59d744195ceabfde4ed96b, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 857415109521496556, guid: 4adb3674bd59d744195ceabfde4ed96b, type: 2}
+    value: {fileID: 4431057236567053731}
+  - key: {fileID: 4812737252025385118, guid: 4adb3674bd59d744195ceabfde4ed96b, type: 2}
+    value: {fileID: 6609577951305030794}
+  - key: {fileID: 2100602240691966084, guid: 4adb3674bd59d744195ceabfde4ed96b, type: 2}
+    value: {fileID: 1377476713808956736}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &2204803769096843411
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3678492566794566129}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 347.6986
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 67.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 632.4226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15091012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9885475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -197.359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_Name
+      value: Mighty Moth (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+--- !u!95 &1377476713808956736 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 2204803769096843411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4962257249169291345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 2204803769096843411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3529284480063891568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3678492566794566129}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 366.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 62.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 616.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15091012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9885475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -197.359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_Name
+      value: Mighty Moth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+--- !u!95 &4431057236567053731 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 3529284480063891568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7691860627788390578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 3529284480063891568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6214192046510137689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3678492566794566129}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 340.4518
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 68.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 608.8454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15091012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9885475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -197.359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+      propertyPath: m_Name
+      value: Mighty Moth (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+--- !u!4 &898834572386068891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 6214192046510137689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6609577951305030794 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 132dbc889f14090499c6851f4e54ab18, type: 3}
+  m_PrefabInstance: {fileID: 6214192046510137689}
+  m_PrefabAsset: {fileID: 0}

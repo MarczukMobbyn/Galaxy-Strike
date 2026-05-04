@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1045197020965491935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3800940611508023680}
+  - component: {fileID: 1550939215120659388}
+  m_Layer: 0
+  m_Name: Five Beetlejucies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3800940611508023680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045197020965491935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -482.8, y: 120.8, z: 87.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 766800409354398495}
+  - {fileID: 8260167149157036004}
+  - {fileID: 8275170951269070929}
+  - {fileID: 6021562620673642096}
+  - {fileID: 5863585971088021040}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1550939215120659388
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045197020965491935}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1802343274677524814, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+    value: {fileID: 6729650529964809742}
+  - key: {fileID: -5811898518697550087, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+    value: {fileID: 2693925717166004981}
+  - key: {fileID: 8849966089528944641, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+    value: {fileID: 2672865807127874880}
+  - key: {fileID: -831758094684520537, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+    value: {fileID: 310851884848446305}
+  - key: {fileID: 228862178320055708, guid: 5cbe771261886d94086683398dfdcf6e, type: 2}
+    value: {fileID: 477127811359400737}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &708350166631433906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3800940611508023680}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_Name
+      value: Beetlejuice (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+--- !u!95 &310851884848446305 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 708350166631433906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6021562620673642096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 708350166631433906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &800470484872879858
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3800940611508023680}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 155.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_Name
+      value: Beetlejuice (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+--- !u!95 &477127811359400737 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 800470484872879858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5863585971088021040 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 800470484872879858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2923719989731274899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3800940611508023680}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 180.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_Name
+      value: Beetlejuice (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+--- !u!95 &2672865807127874880 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 2923719989731274899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8275170951269070929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 2923719989731274899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2947168041155766054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3800940611508023680}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 167.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_Name
+      value: Beetlejuice (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+--- !u!95 &2693925717166004981 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 2947168041155766054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8260167149157036004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 2947168041155766054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5827740506306864093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3800940611508023680}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 147.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+      propertyPath: m_Name
+      value: Beetlejuice
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+--- !u!4 &766800409354398495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 5827740506306864093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6729650529964809742 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 3657e86dc4310b34d9def23ad993846e, type: 3}
+  m_PrefabInstance: {fileID: 5827740506306864093}
+  m_PrefabAsset: {fileID: 0}

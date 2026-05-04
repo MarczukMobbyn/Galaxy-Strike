@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &468515601989475254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7380597780654598208}
+  - component: {fileID: 6049910050098981568}
+  m_Layer: 0
+  m_Name: Four LadyBugs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7380597780654598208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468515601989475254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.847627, z: 0, w: 0.5305926}
+  m_LocalPosition: {x: -27.6, y: 78.8, z: 238.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2030845053111973208}
+  - {fileID: 6686446577655096617}
+  - {fileID: 6186810293120640925}
+  - {fileID: 7897559537226597340}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 115.909, z: 0}
+--- !u!320 &6049910050098981568
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468515601989475254}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 6f92de3dc5b74594fb9e7f3cd86caf76, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 5471802870493478985}
+  - key: {fileID: 0}
+    value: {fileID: 795935182193496120}
+  - key: {fileID: 0}
+    value: {fileID: 151796677459350156}
+  - key: {fileID: 0}
+    value: {fileID: 4204525759915685581}
+  - key: {fileID: -7186979055947520064, guid: 6f92de3dc5b74594fb9e7f3cd86caf76, type: 2}
+    value: {fileID: 5471802870493478985}
+  - key: {fileID: 3465323484852935051, guid: 6f92de3dc5b74594fb9e7f3cd86caf76, type: 2}
+    value: {fileID: 795935182193496120}
+  - key: {fileID: -6715613781698431430, guid: 6f92de3dc5b74594fb9e7f3cd86caf76, type: 2}
+    value: {fileID: 151796677459350156}
+  - key: {fileID: -5554258372276040017, guid: 6f92de3dc5b74594fb9e7f3cd86caf76, type: 2}
+    value: {fileID: 4204525759915685581}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &472724345234402795
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7380597780654598208}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9839527
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17842974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -2.304788e-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000022351744
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_Name
+      value: Lady Bug (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+--- !u!95 &795935182193496120 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 472724345234402795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6686446577655096617 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 472724345234402795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1125764509249417055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7380597780654598208}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9839527
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17842974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -2.304788e-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000022351744
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_Name
+      value: Lady Bug (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+--- !u!95 &151796677459350156 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 1125764509249417055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6186810293120640925 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 1125764509249417055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4025575383603727134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7380597780654598208}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9839527
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17842974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -2.304788e-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000022351744
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_Name
+      value: Lady Bug (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+--- !u!95 &4204525759915685581 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 4025575383603727134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7897559537226597340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 4025575383603727134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5074273809364368794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7380597780654598208}
+    m_Modifications:
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9839527
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17842974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -2.304788e-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000022351744
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8197117753682745711, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+      propertyPath: m_Name
+      value: Lady Bug
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+--- !u!4 &2030845053111973208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6504451262172498114, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 5074273809364368794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5471802870493478985 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 974130594541813203, guid: 63d0ab2e37281ed4b9008af3ac8d85a0, type: 3}
+  m_PrefabInstance: {fileID: 5074273809364368794}
+  m_PrefabAsset: {fileID: 0}
